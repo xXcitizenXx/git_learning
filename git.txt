@@ -46,4 +46,7 @@ git stash drop: удалить последнее изменение в стек
 git stash pop: применить последнее изменение из стека к текущей рабочей копии и удалить его из стека
 git stash clear: очистить стек изменений
 
-git push -f origin master # после amend
+git push -f origin master # после amend(внесения изменений в коммиты)
+git reset --hard HEAD~ # удаление последнего коммита (git reset --hard HEAD~2 два последних)
+git rev-list --count HEAD # подсчёт коммитов в ветке
+git reset --soft HEAD~2 # удаление коммитов
