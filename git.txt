@@ -54,3 +54,4 @@ git reset --soft HEAD~2 # удаление коммитов
 git clone <link> # получение репозитория с gitHub
 git push --set-upstream <branch> # отправка ветки на gitHub
 git push origin --delete <branch> # удаление ветки на gitHub
+git log --pretty=oneline # log gitHub
