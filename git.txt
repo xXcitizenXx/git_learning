@@ -50,3 +50,5 @@ git push -f origin master # после amend(внесения изменений
 git reset --hard HEAD~ # удаление последнего коммита (git reset --hard HEAD~2 два последних)
 git rev-list --count HEAD # подсчёт коммитов в ветке
 git reset --soft HEAD~2 # удаление коммитов
+
+git clone <link> - получение репозитория с gitHub
