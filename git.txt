@@ -55,3 +55,11 @@ git clone <link> # получение репозитория с gitHub
 git push --set-upstream <branch> # отправка ветки на gitHub
 git push origin --delete <branch> # удаление ветки на gitHub
 git log --pretty=oneline # log gitHub
+
+git tag # посмотреть таги
+git tag # установить таг на нужный коммит
+git tag -a <name> <hash> # таг на нужный коммит по хэшу
+git checkout <name_tag> # переключение на коммит
+git tag -d <name> # удаление тага локально
+git push origin --delete <name> # удаление тага на gitHub
+git log --pretty=oneline # лог с тэгами и хэшами
